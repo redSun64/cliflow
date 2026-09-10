@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="690" viewBox="0 0 1500 690">
+<defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#33415C"/>
+      </marker>
+      <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#45D4E8"/><stop offset="1" stop-color="#6C8CFF"/></linearGradient>
+    </defs>
+<rect width="1500" height="690" rx="32" fill="#0B1020"/>
+<text x="70" y="70" fill="#EAF2FF" font-size="34" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">From business APIs to a self-contained CLI</text>
+<text x="70" y="108" fill="#A9B7CE" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">Business teams provide semantics. Cliflow provides the runtime and packaging contract.</text>
+
+
+      <rect x="70" y="190" width="300" height="105" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="70" y="190" width="7" height="105" rx="3.5" fill="#FDBA74"/>
+      <text x="96" y="226" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">OpenAPI</text>
+      <text x="96" y="256" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">service + atomic operations</text>
+
+
+      <rect x="70" y="335" width="300" height="105" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="70" y="335" width="7" height="105" rx="3.5" fill="#6EE7B7"/>
+      <text x="96" y="371" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Java Shortcuts</text>
+      <text x="96" y="401" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">business workflows</text>
+
+
+      <rect x="70" y="480" width="300" height="105" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="70" y="480" width="7" height="105" rx="3.5" fill="#6C8CFF"/>
+      <text x="96" y="516" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">CliModule SPI</text>
+      <text x="96" y="546" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">command registration</text>
+
+
+<rect x="505" y="255" width="360" height="270" rx="32" fill="#182338" stroke="url(#flow)" stroke-width="4"/>
+<text x="685" y="335" text-anchor="middle" fill="#EAF2FF" font-size="38" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">Cliflow SDK</text>
+<text x="685" y="378" text-anchor="middle" fill="#A9B7CE" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">command tree · auth · JSON · safety</text>
+<rect x="580" y="418" width="210" height="46" rx="14" fill="#0B1020" stroke="#33415C"/>
+<text x="685" y="447" text-anchor="middle" fill="#45D4E8" font-size="17" font-family="monospace">mvn package</text>
+
+
+      <rect x="1000" y="220" width="360" height="105" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="1000" y="220" width="7" height="105" rx="3.5" fill="#6C8CFF"/>
+      <text x="1026" y="256" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Business Fat JAR</text>
+      <text x="1026" y="286" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">one repository · one CLI</text>
+
+
+      <rect x="1000" y="390" width="360" height="105" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="1000" y="390" width="7" height="105" rx="3.5" fill="#45D4E8"/>
+      <text x="1026" y="426" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Self-contained CLI</text>
+      <text x="1026" y="456" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">optional jpackage + bundled JRE</text>
+
+
+      <rect x="1000" y="550" width="170" height="80" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="1000" y="550" width="7" height="80" rx="3.5" fill="#6EE7B7"/>
+      <text x="1026" y="586" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Humans</text>
+      <text x="1026" y="616" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">terminal</text>
+
+
+      <rect x="1190" y="550" width="170" height="80" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="1190" y="550" width="7" height="80" rx="3.5" fill="#45D4E8"/>
+      <text x="1216" y="586" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">AI Agents</text>
+      <text x="1216" y="616" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Skill + schema</text>
+
+
+<path d="M370 242 L505 315" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M370 387 L505 390" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M370 532 L505 465" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M865 345 L1000 272" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1180 325 L1180 390" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1090 495 L1090 550" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M1275 495 L1275 550" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</svg>

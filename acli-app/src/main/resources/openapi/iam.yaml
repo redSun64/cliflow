@@ -1,0 +1,61 @@
+openapi: 3.0.3
+info:
+  title: IAM API
+  version: 1.0.0
+paths:
+  /accounts:
+    post:
+      operationId: createAccount
+      tags: [account]
+      summary: Create an enterprise account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [employeeId, name]
+              properties:
+                employeeId:
+                  type: string
+                name:
+                  type: string
+      responses:
+        '200':
+          description: Account
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+  /roles/bind:
+    post:
+      operationId: bindRole
+      tags: [role]
+      summary: Bind a role to an account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [accountId, role]
+              properties:
+                accountId:
+                  type: string
+                role:
+                  type: string
+      responses:
+        '204':
+          description: Bound
+components:
+  schemas:
+    Account:
+      type: object
+      required: [id, employeeId, status]
+      properties:
+        id:
+          type: string
+        employeeId:
+          type: string
+        status:
+          type: string

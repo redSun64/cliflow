@@ -1,0 +1,12 @@
+package io.github.redsun64.acli.api;
+
+import picocli.CommandLine;
+
+import java.util.Locale;
+
+public final class OutputFormatConverter implements CommandLine.ITypeConverter<OutputFormat> {
+    @Override
+    public OutputFormat convert(String value) {
+        return OutputFormat.valueOf(value.toUpperCase(Locale.ROOT));
+    }
+}

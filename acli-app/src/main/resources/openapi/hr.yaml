@@ -1,0 +1,35 @@
+openapi: 3.0.3
+info:
+  title: HR API
+  version: 1.0.0
+paths:
+  /employees/search:
+    get:
+      operationId: searchEmployee
+      tags: [employee]
+      summary: Search one employee by keyword
+      parameters:
+        - name: keyword
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Employee
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Employee'
+components:
+  schemas:
+    Employee:
+      type: object
+      required: [id, name]
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        department:
+          type: string

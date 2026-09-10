@@ -1,0 +1,20 @@
+services:
+  - id: hr
+    name: Human Resources
+    baseUrl: http://localhost:18080
+    baseUrlEnv: HR_BASE_URL
+    openapi: classpath:openapi/hr.yaml
+    auth:
+      type: bearer-env
+      env: HR_API_TOKEN
+      required: false
+
+  - id: iam
+    name: Identity and Access Management
+    baseUrl: http://localhost:18081
+    baseUrlEnv: IAM_BASE_URL
+    openapi: classpath:openapi/iam.yaml
+    auth:
+      type: bearer-env
+      env: IAM_API_TOKEN
+      required: false

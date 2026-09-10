@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620">
+<defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#33415C"/>
+      </marker>
+      <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#45D4E8"/><stop offset="1" stop-color="#6C8CFF"/></linearGradient>
+    </defs>
+<rect width="1500" height="620" rx="32" fill="#0B1020"/>
+<text x="70" y="70" fill="#EAF2FF" font-size="34" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Agent execution flow</text>
+<text x="70" y="108" fill="#A9B7CE" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">Discover → inspect → dry-run → confirm → execute → structured result</text>
+
+
+      <rect x="70" y="180" width="250" height="110" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="70" y="180" width="7" height="110" rx="3.5" fill="#45D4E8"/>
+      <text x="96" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">AI Agent</text>
+      <text x="96" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">intent &amp; decision</text>
+
+
+      <rect x="390" y="180" width="300" height="110" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="390" y="180" width="7" height="110" rx="3.5" fill="#6C8CFF"/>
+      <text x="416" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Cliflow Schema</text>
+      <text x="416" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">business commands · risk · options</text>
+
+
+      <rect x="760" y="180" width="300" height="110" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="760" y="180" width="7" height="110" rx="3.5" fill="#6EE7B7"/>
+      <text x="786" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Java Shortcut</text>
+      <text x="786" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">workflow · validation · compensation</text>
+
+
+      <rect x="1130" y="180" width="300" height="110" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="1130" y="180" width="7" height="110" rx="3.5" fill="#FDBA74"/>
+      <text x="1156" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Remote APIs</text>
+      <text x="1156" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">OpenAPI operations + auth</text>
+
+
+<path d="M320 235 L390 235" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/><text x="355.0" y="225.0" text-anchor="middle" fill="#A9B7CE" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">schema</text>
+<path d="M690 235 L760 235" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/><text x="725.0" y="225.0" text-anchor="middle" fill="#A9B7CE" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">dry-run / --yes</text>
+<path d="M1060 235 L1130 235" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/><text x="1095.0" y="225.0" text-anchor="middle" fill="#A9B7CE" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">ctx.call</text>
+
+<path d="M1280 310 C1280 430 910 430 910 310" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="1095" y="414" text-anchor="middle" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">structured API result</text>
+<path d="M835 310 C835 505 200 505 200 310" stroke="url(#flow)" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="515" y="492" text-anchor="middle" fill="#EAF2FF" font-size="16" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">UTF-8 JSON</text>
+
+<g transform="translate(70,548)">
+ <circle cx="10" cy="0" r="7" fill="#45D4E8"/><text x="28" y="6" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Agent-facing surface</text>
+ <circle cx="210" cy="0" r="7" fill="#6EE7B7"/><text x="228" y="6" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Business semantics</text>
+ <circle cx="420" cy="0" r="7" fill="#FDBA74"/><text x="438" y="6" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">Transport layer</text>
+</g>
+</svg>

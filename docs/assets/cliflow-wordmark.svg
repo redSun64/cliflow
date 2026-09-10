@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="g" x1="40" y1="40" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45D4E8"/><stop offset="1" stop-color="#6C8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="52" fill="#0B1020"/>
+  <rect x="42" y="42" width="236" height="236" rx="56" fill="#121A2B" stroke="#24304A" stroke-width="3"/>
+  <path d="M88 126 L126 160 L88 194" fill="none" stroke="url(#g)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M139 198 H181" stroke="#EAF2FF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M190 128 C214 128 214 160 228 160 C244 160 244 126 258 126" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M228 160 C228 190 242 204 260 204" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="190" cy="128" r="9" fill="#45D4E8"/><circle cx="260" cy="126" r="9" fill="#6C8CFF"/><circle cx="260" cy="204" r="9" fill="#6EE7B7"/>
+  <text x="336" y="156" fill="#EAF2FF" font-size="82" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Cliflow</text>
+  <text x="340" y="214" fill="#A9B7CE" font-size="28" font-family="Inter,Segoe UI,Arial,sans-serif">Composable, AI-friendly CLI from APIs</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#33415C"/>
+      </marker>
+      <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#45D4E8"/><stop offset="1" stop-color="#6C8CFF"/></linearGradient>
+    </defs>
+<rect width="1400" height="760" rx="32" fill="#0B1020"/>
+<text x="70" y="70" fill="#EAF2FF" font-size="34" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Cliflow as the stable command boundary</text>
+<text x="70" y="108" fill="#A9B7CE" font-size="18" font-family="Inter,Segoe UI,Arial,sans-serif">Transport stays atomic. Business workflows stay expressive. Agents see only the safe surface.</text>
+
+
+      <rect x="90" y="180" width="330" height="115" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="90" y="180" width="7" height="115" rx="3.5" fill="#FDBA74"/>
+      <text x="116" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">OpenAPI Operations</text>
+      <text x="116" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">atomic transport capabilities</text>
+
+
+      <rect x="90" y="445" width="330" height="115" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="90" y="445" width="7" height="115" rx="3.5" fill="#6EE7B7"/>
+      <text x="116" y="481" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Java Shortcuts</text>
+      <text x="116" y="511" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">intent-oriented workflows</text>
+
+
+<rect x="525" y="215" width="350" height="310" rx="36" fill="#182338" stroke="url(#flow)" stroke-width="4"/>
+<text x="700" y="290" text-anchor="middle" fill="#EAF2FF" font-size="42" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">Cliflow</text>
+<text x="700" y="330" text-anchor="middle" fill="#A9B7CE" font-size="17" font-family="Inter,Segoe UI,Arial,sans-serif">command runtime</text>
+<rect x="590" y="365" width="220" height="44" rx="14" fill="#0B1020" stroke="#33415C"/>
+<text x="700" y="393" text-anchor="middle" fill="#45D4E8" font-size="16" font-weight="700" font-family="monospace">schema / --help / JSON</text>
+<text x="700" y="455" text-anchor="middle" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">auth · risk · dry-run · confirm</text>
+
+
+      <rect x="980" y="180" width="330" height="115" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="980" y="180" width="7" height="115" rx="3.5" fill="#45D4E8"/>
+      <text x="1006" y="216" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">AI Agents</text>
+      <text x="1006" y="246" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">progressive discovery + execution</text>
+
+
+      <rect x="980" y="445" width="330" height="115" rx="20" fill="#121A2B" stroke="#33415C" stroke-width="2"/>
+      <rect x="980" y="445" width="7" height="115" rx="3.5" fill="#6C8CFF"/>
+      <text x="1006" y="481" fill="#EAF2FF" font-size="22" font-weight="700" font-family="Inter,Segoe UI,Arial,sans-serif">Humans</text>
+      <text x="1006" y="511" fill="#A9B7CE" font-size="15" font-family="Inter,Segoe UI,Arial,sans-serif">predictable CLI + JSON</text>
+
+
+<path d="M420 238 L525 300" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M420 503 L525 445" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M875 300 L980 238" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M875 445 L980 503" stroke="#33415C" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+<text x="700" y="675" text-anchor="middle" fill="#A9B7CE" font-size="16" font-family="Inter,Segoe UI,Arial,sans-serif">One command surface for people and agents — without exposing the whole OpenAPI tree by default.</text>
+</svg>
